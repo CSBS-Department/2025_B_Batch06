@@ -1,0 +1,160 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening"],
+      "responses": ["Hello! How can I assist you?", "Hi there! How may I help you today?"]
+    },
+    {
+      "tag": "about_college",
+      "patterns": ["Tell me about Panimalar Engineering College", "What is Panimalar Engineering College?", "About the college"],
+      "responses": ["Panimalar Engineering College is an esteemed institution located in Chennai, Tamil Nadu. It offers a wide range of engineering programs and provides excellent facilities for students."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses does Panimalar Engineering College offer?", "Tell me about the courses available at Panimalar Engineering College", "Courses offered"],
+      "responses": ["Panimalar Engineering College offers undergraduate and postgraduate programs in various engineering disciplines such as Mechanical Engineering, Computer Science and Engineering, Electronics and Communication Engineering, Electrical and Electronics Engineering, Civil Engineering, and more."]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["How can I apply for admission to Panimalar Engineering College?", "Admission process", "Application procedure"],
+      "responses": ["For admission to Panimalar Engineering College, you need to visit the college's official website and follow the admission guidelines provided. You can also contact the college admission office for further assistance."]
+    },
+    {
+      "tag": "facilities",
+      "patterns": ["What facilities are available at Panimalar Engineering College?", "Tell me about the facilities", "Infrastructure"],
+      "responses": ["Panimalar Engineering College provides state-of-the-art facilities including well-equipped laboratories, libraries, sports facilities, hostel accommodations, and more. The college focuses on providing a conducive learning environment for students."]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["How is the placement scenario at Panimalar Engineering College?", "Placement opportunities", "Job placements"],
+      "responses": ["Panimalar Engineering College has a dedicated placement cell that helps students secure job placements in top companies. The college has a strong industry connection and conducts various placement drives and training programs to prepare students for their careers."]
+    },
+    {
+      "tag": "faculty",
+      "patterns": ["Tell me about the faculty at Panimalar Engineering College", "Faculty members", "Teaching staff"],
+      "responses": ["The faculty at Panimalar Engineering College consists of highly qualified and experienced professionals who are dedicated to providing quality education to students. They are experts in their respective fields and are committed to the overall development of students."]
+    },
+    {
+      "tag": "events",
+      "patterns": ["What events are organized at Panimalar Engineering College?", "College events", "Cultural events"],
+      "responses": ["Panimalar Engineering College organizes various events throughout the year, including technical symposiums, cultural festivals, seminars, workshops, and more. These events provide students with opportunities to showcase their talents and interact with industry experts."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact Panimalar Engineering College?", "Contact details", "Address"],
+      "responses": ["You can contact Panimalar Engineering College at the following address: XYZ Street, Chennai, Tamil Nadu. You can also reach them via phone at +91-XXXXXXX or email at info@example.com."]
+    },
+    {
+      "tag": "thank_you",
+      "patterns": ["Thank you", "Thanks", "Appreciate it"],
+      "responses": ["You're welcome! Feel free to ask if you have any more questions."]
+    },
+    {
+      "tag": "wwt pdf",
+      "patterns": ["get wastewater pdf", "send me the wwt pdf", "waste water treatment pdf file"],
+      "responses": ["Sure! Here is the PDF file: <a href='https://drive.google.com/file/d/1IyS7Q0EUhWrdUHkFz5sb1CEpOyhAXD9U/view?usp=drive_link' target='_blank'>Download PDF</a>"]
+    },
+    {
+      "tag": "dt pdf",
+      "patterns": ["get design thinking pdf", "send me the dt pdf", "dt pdf file"],
+      "responses": ["Sure! Here is the PDF file: <a href='https://drive.google.com/file/d/1InvOy_u8C3_9Pn-AJ-fxYCNl2wZjYd7u/view?usp=drive_link' target='_blank'>Download PDF</a>"]
+    },
+    {
+      "tag": "bsm pdf",
+      "patterns": ["get bussiness strategy management pdf", "send me the bsm pdf", "bsm pdf file"],
+      "responses": ["Sure! Here is the PDF file: <a href='https://drive.google.com/file/d/1IqfBf5KgdXPYWFtxy7PmCTeHzwlyQwPV/view?usp=drive_link' target='_blank'>Download PDF</a>"]
+    },
+    {
+      "tag": "ai&ml pdf",
+      "patterns": [" get artificial intelligence and machine learning pdf", "send me the ai&ml pdf", "ai&ml pdf file"],
+      "responses": ["Sure! Here is the PDF file: <a href='https://drive.google.com/file/d/1IzQSpSZlVY4wIrge0d0A6NkkMWtcLZOG/view?usp=drive_link' target='_blank'>Download PDF</a>"]
+    },
+    {
+      "tag": "fallback",
+      "patterns": ["", "Sorry, I don't understand", "Can you repeat that?"],
+      "responses": ["I'm sorry, I didn't quite catch that. Could you please rephrase your question?"]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["What are the requirements for applying to the college?","How do I submit my application?","When is the application deadline?"],
+      "responses": ["For admission requirements, application submission, and application deadlines, please visit our website or contact the admissions office directly. Requirements may vary depending on your program and level of study."]
+    },
+    {
+      "tag": "academics",
+      "patterns": ["What classes are available for my major/minor?,classes, major/minor availability"],
+      "responses": ["To view the classes available for your major/minor, please consult the course catalog on our website. You can also speak with your academic advisor for personalized recommendations."]
+    },
+    {
+      "tag": "calendar",
+      "patterns": ["Is there a calendar of academic deadlines and holidays?,academic calendar, deadlines, holidays"],
+      "responses": ["Yes, we maintain an academic calendar that includes important deadlines, exam schedules, and holidays throughout the academic year. You can access the academic calendar on our website or through our student portal. Be sure to check the calendar regularly to stay informed about upcoming academic events and deadlines."]
+    },
+    {
+      "tag": "campus_hours",
+      "patterns": ["What are the campus hours of operation?,campus hours, operation schedule"],
+      "responses": ["The campus is open during regular business hours, from 7am to 4pm on weekdays. However, certain facilities such as libraries, dining halls, and recreational centers may have different operating hours. For detailed information about the hours of operation for specific campus services and facilities, please visit our website or contact the respective departments directly."]
+    },
+    {
+      "tag": "student_ID_card",
+      "patterns": ["How do I get a student ID card?,student ID card, issuance procedure"],
+      "responses": ["To obtain a student ID card, you will need to visit the admin block on campus during business hours.The staff at the admin block will assist you in getting your student ID card issued. If you have any questions or need further assistance, feel free to contact the admin block for more information."]
+    },
+    {
+      "tag": "further_assistance",
+      "patterns": ["Who can I contact for further assistance?,contact, further assistance"],
+      "responses": ["If you need further assistance or have additional questions, you can contact our admin office. Our staff are available to help you with any inquiries you may have regarding admissions, academics, financial aid, student services, campus life, or any other aspect of college life. You can find contact information for specific departments on our website or reach out to our general inquiries line at XXXX or email us at panimalar,com."]
+    },
+    {
+      "tag": "college_timeline",
+      "patterns": ["How many periods are there in the college timeline in one day?,college timeline, daily periods"],
+      "responses": ["In our college, there are typically 8 periods in the college timeline in one day. Classes start at 8:00 am and continue until 3:15 pm, with each period representing a class or academic session."]
+    },
+    {
+      "tag": "electronics_policy",
+      "patterns": ["Can I carry a mobile phone and laptop to the college?,mobile phone, laptop, college policy"],
+      "responses": ["Our college does not allow students to carry mobile phones or laptops onto the campus premises. This policy is in place to minimize distractions and maintain a focused learning environment. However, if you have a specific requirement for the use of a mobile phone or laptop for academic purposes, you may request permission from the respective Head of Department (HoD) for your department. Please consult with the HoD to discuss your requirement and obtain authorization."]
+    },
+    {
+      "tag": "own_transport",
+      "patterns": ["Can students reach the college with their own transport?,student transport, personal vehicles"],
+      "responses": ["No, students are not permitted to reach the college with their own transport. Our college does not allow students to use personal vehicles for commuting to campus. This policy is in place to manage traffic congestion, parking availability, and ensure the safety of all students, faculty, and staff."]
+    },
+    {
+      "tag": "college_vision",
+      "patterns": ["What is the vision of our college?,college vision"],
+      "responses": ["The vision of our college is to transform the budding engineers into academically excellent, highly intellectual, and self-disciplined engineering graduates. We aim to mold them as good citizens with the spirit of integrity and morality, preparing them to cater to the needs of our nation."]
+    },
+    {
+      "tag": "college_mission",
+      "patterns": ["What is the mission of the institute?,institute mission"],
+      "responses": ["The mission of our institute is to impart quality education with high standards of excellence in engineering and technology. We strive to provide an excellent infrastructure in a serene and conducive atmosphere that would motivate students in their pursuit of knowledge in the field of engineering and technology."]
+    },
+    {
+      "tag": "campus_description",
+      "patterns": ["Tell me about our campus?,campus description"],
+      "responses": ["Our sprawling campus provides a holistic education in an ambience that makes no compromise on discipline, dedication, and commitment. We strive to inculcate the spirit of learning on campus, offering state-of-the-art facilities to our students. The college ensures that the students who pass out of the college turn out to be academically brilliant, morally upright, and empowered individuals."]
+    },
+    {
+      "tag": "alumni_association",
+      "patterns": ["Tell me about the alumni association?,alumni association"],
+      "responses": ["A registered Alumni Association has been established at Panimalar Engineering College. The last Alumni meeting was held on December 17th, 2023, at our college premises. This Alumni meet was attended by nearly 1500 alumni, facilitating a healthy exchange of ideas and discussions on industry expectations."]
+    },
+    {
+      "tag": "atm_facility",
+      "patterns": ["Tell me about the ATM facilities at the college?,atm facility"],
+      "responses": ["Panimalar Campus provides ATM facility for the benefit of students and staff members. It enables them to withdraw and access cash in a quick and convenient way."]
+    },
+    {
+      "tag": "sewage_treatment_plant",
+      "patterns": ["Tell me about the water sewage treatment plant at the college?,sewage treatment plant"],
+      "responses": ["Water is the basic necessity of life used for many purposes. So, recycling water is necessary. Considering this in our mind, we have established a Sewage treatment plant in our Panimalar college with the assistance of our Civil Department faculty. The treated water is utilized properly for watering the plants throughout the campus and also for irrigation purposes!"]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["Tell me about the placement opportunities at Panimalar Engineering College?, placement opportunities"],
+      "responses": ["Placement plays a major role in shaping up the career goals of students. It is a dream of every engineering student to get placed in a top organization. Keeping this key aspect into consideration, it is realized that training is important for engineering students to enhance their employability skills and achieve good placement in various Industries. In our college, apart from technical expertise, students are trained to become a holistic personality equipped with life skills to meet the challenges across the globe."]
+    }
+  ]
+}
+  
